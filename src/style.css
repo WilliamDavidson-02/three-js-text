@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.lil-gui {
+  --background-color: #002b36;
+  --text-color: #b2c2c2;
+  --title-background-color: #001f27;
+  --title-text-color: #b2c2c2;
+  --widget-color: #094e5f;
+  --hover-color: #0a6277;
+  --focus-color: #0b6c84;
+  --number-color: #2aa0f2;
+  --string-color: #97ad00;
+  --font-size: 14px;
+  --input-font-size: 14px;
+  --padding: 8px;
+  --spacing: 8px;
+  --widget-height: 24px;
+  --slider-knob-width: 4px;
+  --folder-indent: 24px;
+  --widget-padding: 0 8px;
+  --widget-border-radius: 4px;
+}
